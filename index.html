@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Stats preview card component only flex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+  <main>
+    <section class="section-text">
+      <h1 class="text-title">Get <span class="title-insight">insights</span> that help your business grow.</h1>
+      <p class="text-text"> Discover the benefits of data analytics and make better decisions regarding revenue,
+        customer
+        experience, and overall efficiency.</p>
+      <ul class="text-list">
+        <li class="text-item"><span class="item-volume">10k+</span><span class="item-name">companies</span></li>
+        <li class="text-item"><span class="item-volume">314</span><span class="item-name">templates</span></li>
+        <li class="text-item"><span class="item-volume">12m+</span><span class="item-name">queries</span></li>
+      </ul>
+    </section>
+    <section class="section-picture">
+      <div class="picture-conteiner">
+        <h2 class="picture-title visually-hidden">Our office </h2>
+        <!-- <img class="picture-image" src="./images/image-header-desktop.jpg" alt="picture of group of people "> -->
+
+        <picture>
+          <source media="(max-width: 1000px)" srcset="./images/image-header-mobile.jpg">
+          <source media="(min-width: 1001px)" srcset="./images/image-header-desktop.jpg">
+          <img class="picture-image"  src="./images/image-header-desktop.jpg" alt="picture of group of people ">
+          </picture>
+
+      </div>
+      <div class="picture-overlay">
+
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
